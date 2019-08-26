@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Raymond Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Time New Roman
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background:LawnGreen;
+  color: black;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 60px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: blue;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: blue;
+  width: 100%;
+  z-index: 1;
+}
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: lawngreen;
+  color:black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color:lawngreen ;
+  padding: 20px;
+}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Raymond Website</h1>
+  <p>First homework.</p>
+</div>
+
+<div class="navbar">
+  <a href = "file:///C:/Users/Raymond/Documents/Universidad/Internet%20Programming/HTMLproyecto2.html"
+  <a href="#home">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">About me <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+<ul>
+
+  <a href = "file:///C:/Users/Raymond/Documents/Universidad/Internet%20Programming/HTMLproyecto2Gallery.html"
+      <a href="#Gallery">Gallery</a>
+  <a href = "file:///C:/Users/Raymond/Documents/Universidad/Internet%20Programming/HTMLproyecto2Resume.html"
+      <a href="#Resume">Resume</a>
+</ul>
+    </div>
+  </div> 
+  
+  <div class="subnav">
+     
+  </div>
+  
+</div>
+<div id="header">
+
+<p id="Names"><h1 style="background-color:lawngreen;"> Resume</h1></p>
+<center>
+ 
+<br>
+<h2> Raymond Cruz Rodriguez </h2>
+<h7><i>Urb. Park Garden calle Grand Canyon U26</i></h7>
+<br> 
+<h7><i>San Juan, PR 00926</i> </h7>
+<br>
+<h7><i>Tel. (787) 909-7635</i></h7>
+<a href="" target="_blank"><p id="email"><i>raymond.abdier3@gmail.com</i></p></a>
+
+</div>
+
+<div class="div1">
+
+</div>
+
+<div class="div2">
+
+<h3 style="color:magenta;"> Objective</h3>
+
+<p> Be able to perform a good job based on my skills and abilities. Demonstrating efficiency in everything that I am assign, acquiring new knowledge and achieving my goals in this work.</p>
+
+
+<h3 style="color:magenta;">Professional Experience</h3>
+
+<h4 id="company-Names">Coorporacion del Fondo del Seguro de Estado </h4>
+<p id="jobTTL"><strong> </strong></p>
+<p id="jobResp">Job Responsbilities</p>
+
+<p>
+
+<ul>
+
+<li>Serve the customer and enter payments to the system</li>
+
+<li>Do paperwork and documenting them in their respective areas</li>
+
+</ul>
+
+</p>
+<h4 id="company-Names"> Hollister Shop</h4>
+<p id="jobTTL"><strong> </strong></p>
+<p id="jobResp">Job Responsbilities</p>
+
+<p>
+
+<ul>
+
+<li>Serve the customer </li>
+
+<li>Sales Associate </li>
+
+</ul>
+
+</p>
+
+<h4 id="company-Names"> El Machinon Party Bus</h4>
+<p id="jobTTL"><strong> </strong></p>
+<p id="jobResp">Job Responsbilities</p>
+
+<p>
+
+<ul>
+
+<li> My duty is to provide customer service, serve drinks (Bartender) and DJ.</li>
+
+
+</ul>
+
+</p>
+
+<h3 style="color:magenta;">Education</h3>
+
+<table>
+
+<tr id="eduQual">
+
+<td>School</td>
+
+<td></td>
+
+<td>Year</td>
+
+</tr>
+
+<tr>
+
+<td>Colegio Del Carmen</td>
+
+<td></td>
+<td>2015</td>
+
+
+</tr>
+
+<tr>
+
+<td>Universidad Politecnica</td>
+<td></td>
+<td>2015-to present</td>
+
+
+
+</tr>
+
+<tr>
+
+</tr>
+
+
+
+</table>
+
+<h3 style="color:magenta;">Independent Courses</h3>
+
+<p>
+
+<ul>
+
+<li>
+
+<span id="courses">Data Structure</span> </li>
+
+<li>
+
+<span id="courses">Data Base</span></li>
+
+<li>
+
+<span id="courses">Logic Circuit</span> </li>
+
+<li>
+
+<span id="courses">microprocessor</span> </li>
+
+<li>
+
+<span id="courses">Differential Ecuation</span></li>
+
+<li>
+
+<span id="courses">Economics</span> </li>
+
+<li>
+
+<span id="courses">HTML & CSS</span> </li>
+
+</ul>
+
+
+
+<h3 style="color:magenta;">Personal Information:</h3>
+
+<p>
+
+<ul>
+
+<li>
+
+Good interface with the public. Ability to work under pressure, creative, detail-oriented work on computer as well as leadership skills, responsible and punctual.
+
+<li>
+
+<span id="courses">Languages Known:</span>Spanish, English, French and Italian</li>
+
+<li>
+
+<span id="courses">Hobbies:</span>Volleyball, Fitness fan</li> </ul>
+
+</p>
+
+</div>
+
+<div id="foot"></div>
+
+</body>
+
+</html>
